@@ -45,21 +45,20 @@ UCI Online Retail II Dataset
 
 ### Dataset Properties
 
-- Transaction-level retail data
-- Unique customer identifiers (CustomerID)
-- Timestamped purchase records (InvoiceDate)
-- Monetary values computable per transaction
-- Multiple purchases per customer
-- Publicly available and widely used dataset
+-Transaction-level retail data -> InvoiceNo.
+-Unique customer identifiers -> CustomerID
+-Timestamped purchase records -> InvoiceDate
+-Monetary values computable per transaction -> Quantity * UnitPrice
+-Multiple purchases per customer -> Repeated InvoiceNo entries per CustomerID
+- Publicly available and widely used -> UCI Online Retail II dataset (source)
 
 ### Transaction Value Calculation
 
 TransactionAmount = Quantity × UnitPrice
 
-
 ---
 
-## 5. CUT-OFF DATE DESIGN (DATA LEAKAGE PREVENTION)
+## 5. CUT-OFF DATE DESIGN 
 
 To ensure realistic and leakage-free modeling, a cut-off date based design is used.
 
@@ -74,18 +73,6 @@ The cut-off date separates:
 
 - Features (X): All transactions before the cut-off date
 - Target (y): Total spend in the 30 days after the cut-off date
-
-### Example
-
-- Cut-off Date: 2011-09-01
-- Feature Window: InvoiceDate < 2011-09-01
-- Target Window: 2011-09-01 to 2011-10-01
-
-### Benefits
-
-- Prevents future information leakage
-- Matches real-world deployment scenarios
-- Enables reliable and fair evaluation
 
 ---
 
