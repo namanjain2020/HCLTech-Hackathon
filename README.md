@@ -7,8 +7,6 @@ Retail businesses are not only interested in how much a customer has spent in th
 
 This project builds a regression-based machine learning system to predict customer purchase value over the next 30 days, also known as short-term Customer Lifetime Value (CLV).
 
-Sprint-2 focuses on implementing the data pipeline, feature engineering, target construction, and baseline modeling defined in Sprint-1.
-
 ---
 
 ## 2. BUSINESS PROBLEM STATEMENT
