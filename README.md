@@ -108,21 +108,21 @@ All features are computed at the customer level using historical data only.
 ### HIGH-LEVEL PIPELINE
 
 Raw Transactions (CSV)
-|
-v
+        |
+        v
 Data Cleaning and Validation
-|
-v
+        |
+        v
 Cut-Off Date Logic
-|
-v
+        |
+        v
 Customer-Level Feature Engineering
-|
-v
+        |
+        v
 Regression Model
-|
-v
+        |
+        v
 Saved Model and Preprocessing Pipeline
-|
-v
+        |
+        v
 Streamlit (To display working)
