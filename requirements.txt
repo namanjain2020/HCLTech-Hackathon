@@ -1,0 +1,9 @@
+Numpy
+Pandas
+MatPlotlib
+Seaborn
+Scikit learn
+tqdm
+Streamlit
+Joblib
+Fast API
