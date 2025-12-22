@@ -28,7 +28,7 @@ Accurate short-term spend predictions enable businesses to:
 |------|------------|
 | Learning Type | Supervised Learning |
 | Task | Regression |
-| Unit of Prediction | Customer |
+| Unit of Prediction | Done per Customer |
 | Input (X) | Aggregated historical customer behavior |
 | Target (y) | Total spend in the next 30 days |
 | Prediction Horizon | 30 days |
