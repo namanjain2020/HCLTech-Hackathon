@@ -116,3 +116,9 @@ Libraries used:-
 ### HIGH-LEVEL PIPELINE
 
 Raw Transactions (CSV) -> Data Cleaning and Validation -> Cut-Off Date Logic -> Customer-Level Feature Engineering -> Regression Model -> Saved Model and Preprocessing Pipeline -> Streamlit (To display working)
+
+### Rough Allocation of Roles 
+- Gouri Patidar : Exploratory Data Analysis and feature engineering
+- Naman Jain : Feature Engineering & Model Training
+- Mohit Jingar : Inferential Pipeline
+- Tanisha Mangliya : Deployment on Streamlit
