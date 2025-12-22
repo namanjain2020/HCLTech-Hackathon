@@ -110,15 +110,15 @@ All features are computed at the customer level using historical data only.
 ## 7. SYSTEM ARCHITECTURE
 Libraries used:-
 
--Numpy
--Pandas
--MatPlotlib
--Seaborn
--Scikit learn
--tqdm
--streamlit
--joblib
--Fast API
+- Numpy
+- Pandas
+- MatPlotlib
+- Seaborn
+- Scikit learn
+- tqdm
+- Streamlit
+- Joblib
+- Fast API
 
 ### HIGH-LEVEL PIPELINE
 
