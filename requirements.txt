@@ -1,9 +1,9 @@
-Numpy
-Pandas
-MatPlotlib
-Seaborn
-Scikit learn
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
 tqdm
-Streamlit
-Joblib
-Fast API
+streamlit
+joblib
+fastapi
