@@ -43,12 +43,15 @@ UCI Online Retail II Dataset
 
 ### Dataset Properties
 
--Transaction-level retail data -> InvoiceNo.
--Unique customer identifiers -> CustomerID
--Timestamped purchase records -> InvoiceDate
--Monetary values computable per transaction -> Quantity * UnitPrice
--Multiple purchases per customer -> Repeated InvoiceNo entries per CustomerID
-- Publicly available and widely used -> UCI Online Retail II dataset (source)
+| Feature Description | Dataset Column / Detail |
+|---------------------|------------------------|
+| Transaction-level retail data | InvoiceNo |
+| Unique customer identifiers | CustomerID |
+| Timestamped purchase records | InvoiceDate |
+| Monetary values per transaction | Quantity × UnitPrice |
+| Multiple purchases per customer | Repeated InvoiceNo entries per CustomerID |
+| Publicly available and widely used | UCI Online Retail II Dataset |
+
 
 ### Transaction Value Calculation
 
