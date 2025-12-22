@@ -62,9 +62,9 @@ TransactionAmount = Quantity × UnitPrice
 ## 5. CUT-OFF DATE DESIGN 
 
 To ensure realistic and leakage-free modeling, a cut-off date based design is used.
-Cut-off Date: 2011-09-01
-Features: InvoiceDate <- 2011-09-01
-Target:   Total spend from 2011-09-01 to 2011-10-01
+Cut-off Date: 01-10-2011
+Features: InvoiceDate before 01-10-2011
+Target:   Total spend from 01-10-2011 to 31-10-2011
 
 
 ### Concept
@@ -92,44 +92,27 @@ All features are computed at the customer level using historical data only.
 - Monetary value (total historical spend)
 - Average order value
 
-### 6.2 TEMPORAL BEHAVIOR FEATURES
-
-- Spend in the last 7, 30, and 90 days
-- Purchase frequency per month
-- Spend trend ratios
-
-### 6.3 BASKET AND PRODUCT FEATURES
+### 6.2 BASKET AND PRODUCT FEATURES
 
 - Number of unique products purchased
 - Average quantity per order
 - Variability in order value
 
-### 6.4 GEOGRAPHIC FEATURES (OPTIONAL)
-
-- Country-level encoding
-
 ---
 
 ## 7. SYSTEM ARCHITECTURE
+Libraries used:-
+
+-Numpy
+-Pandas
+-MatPlotlib
+-Seaborn
+-Scikit learn
+-tqdm
+-streamlit
+-joblib
+-Fast API
 
 ### HIGH-LEVEL PIPELINE
 
-Raw Transactions (CSV)
-        |
-        v
-Data Cleaning and Validation
-        |
-        v
-Cut-Off Date Logic
-        |
-        v
-Customer-Level Feature Engineering
-        |
-        v
-Regression Model
-        |
-        v
-Saved Model and Preprocessing Pipeline
-        |
-        v
-Streamlit (To display working)
+Raw Transactions (CSV) -> Data Cleaning and Validation -> Cut-Off Date Logic -> Customer-Level Feature Engineering -> Regression Model -> Saved Model and Preprocessing Pipeline -> Streamlit (To display working)
