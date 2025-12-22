@@ -3,9 +3,8 @@
 
 ## 1. PROJECT OVERVIEW
 
-Retail businesses are not only interested in how much a customer has spent in the past, but more importantly in how much they are likely to spend in the near future.
-
-This project builds a regression-based machine learning system to predict customer purchase value over the next 30 days, also known as short-term Customer Lifetime Value (CLV).
+For retail businesses, understanding past customer spending is useful, but predicting future spending is far more valuable.
+In this project, we develop a regression-based machine learning system to predict how much a customer is expected to spend in the next 30 days, also known as short-term Customer Lifetime Value (CLV).
 
 ---
 
@@ -14,7 +13,6 @@ This project builds a regression-based machine learning system to predict custom
 For each active customer, estimate:
 
 How much money will this customer spend in the next 30 days?
-
 Accurate short-term spend predictions enable businesses to:
 
 - Identify high-value customers
