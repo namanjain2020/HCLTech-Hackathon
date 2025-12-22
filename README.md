@@ -69,9 +69,9 @@ TransactionAmount = Quantity × UnitPrice
 ## 5. CUT-OFF DATE DESIGN 
 
 To ensure realistic and leakage-free modeling, a cut-off date based design is used.
-Cut-off Date: 01-10-2011
-Features: InvoiceDate before 01-10-2011
-Target:   Total spend from 01-10-2011 to 31-10-2011
+- Cut-off Date: 01-10-2011
+- Features: InvoiceDate before 01-10-2011
+- Target:   Total spend from 01-10-2011 to 31-10-2011
 
 
 ### Concept
