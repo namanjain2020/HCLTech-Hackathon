@@ -33,6 +33,13 @@ Accurate short-term spend predictions enable businesses to:
 | Target (y) | Total spend in the next 30 days |
 | Prediction Horizon | 30 days |
 
+## REGRESSION
+
+- LINEAR REGRESSION
+- SUPPORT VECTOR REGRESSION
+- RANDOM FOREST REGRESSOR
+- XG BOOST 
+
 ---
 
 ## 4. DATASET DESCRIPTION
