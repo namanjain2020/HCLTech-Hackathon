@@ -128,4 +128,4 @@ Raw Transactions (CSV) -> Data Cleaning and Validation -> Cut-Off Date Logic -> 
 - Gouri Patidar : Exploratory Data Analysis and feature engineering
 - Naman Jain : Feature Engineering & Model Training
 - Mohit Jingar : Inferential Pipeline
-- Tanisha Mangliya : Deployment on Streamlit
+- Tanisha Mangliya : Deployment on Streamlit. (Backend Logic (FastAPI) and UI building using Streamlit.) 
